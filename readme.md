@@ -16,3 +16,7 @@ uses: https://github.com/miguelgrinberg/flask-migrate
 2. flask db migrate (creates the migration files with upgrade and downgrade functions)
 3. flask db upgrade (runs the migrations on the database)
 4. flask db downgrade (rolls back the last migration)
+
+
+# Flask Shell
+* flask shell (see microblog.py shell_context_processor for pre imported classes)
